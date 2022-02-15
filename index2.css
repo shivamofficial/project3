@@ -1,0 +1,328 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .ui-trip {
+    text-align: center;
+padding-top: 30px;
+  }
+  .title-trip
+  {
+    font-size: 60px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 60px;
+   
+  }
+  .a{
+    position: relative;
+    right: 500px;
+    display: flex;
+    top: 60px;
+        width: 20%;
+        
+    }
+    .b
+    {
+        position: relative;
+        left: 500px;
+        top:-60px;
+        
+        display: flex;
+    
+       width: 20%;  
+    }
+    .back {
+       
+        display: inline-block;
+        position: relative;
+bottom: 70px;
+right: 40px;
+      }
+       .back-text
+{font-size: 40px;
+    font-weight: 300;
+    position: relative;
+    left: 60px;
+    bottom: 90px;
+}      
+  .back-logo-circle {
+background-color: red;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+border: none;
+position: absolute;
+bottom: 100px;
+  }
+  .arrow {
+    position: relative;
+    top: 10px;
+    left: 11px;
+  }
+  
+  .top-arrow {
+      width: 12px;
+      border-bottom: 2px solid white;
+border-radius: 12px;
+transform: rotate(-45deg);
+    position: relative;
+    top: 4px;
+  }
+.straight-arrow
+{
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    width: 17px;
+    position: relative;
+   top: 7px;
+   left: 2px;
+}
+
+.bottom-arrow {
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    /* height: 20px; */
+    width: 14px;
+    transform: rotate(-135deg);
+    position: relative;
+    top: 9px;
+    left: -1px;
+  }
+  .box-container {
+     position: relative;
+     left: 550px;
+   bottom: 120px;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   
+  }
+  .head
+  {
+      border: 2px solid red;
+      height: 400px;
+    width: 30%;
+    border-radius: 10px;
+
+  }
+  .line {
+    border: none;
+    border-top: 1px solid grey;
+   
+    position: relative;
+    left: 80px;
+ width: 65%;
+ height: 1px;
+  }
+  .task-title
+{
+    font-size: 30px;
+    color: red;
+  }
+  
+  .task-body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    /* font-weight: 400; */
+    color: #f52e27;
+    text-decoration-line: line-through;
+  }
+  
+  .check {
+    text-align: left;
+    font-size: 23px;
+    padding-left: 100px;
+  }
+  .check-box {
+    transform: scale(1.5);
+    position: relative;
+    top: -1px;
+  }
+
+
+  .add-logo
+  {
+      display: inline-block;
+      position: relative;
+      left: 400px;
+      bottom: 55px;
+  }
+.circle{
+    background-color: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    position: absolute;
+}
+.var
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.plus {
+    position: relative;
+    top: 5px;
+   
+}.var
+{
+    border-left: 2px solid black;
+    border-radius: 10px;
+width: 20px;
+position: absolute;
+
+   
+}
+
+.hor {
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    width: 19px;
+   position: relative;
+   top: 13px;
+   left: 10px;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 1000px)
+  {
+    .ui {
+        margin: 0px;
+        width: auto;
+      }
+
+      
+  .title-trip
+  {
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 60px;
+    right: 130px;
+   text-align:center;
+  }
+  .a,.b{
+      visibility: hidden;
+  }
+  .back{
+    position: relative;
+    bottom: 60px;
+    right: 130px;
+   text-align:center;
+  }
+  .box-container {
+    position: relative;
+    left: 130px;
+  bottom: 150px;
+   display: flex;
+   flex-direction: column;
+  text-align: center;
+  
+ }
+ .head
+ {
+     border: 2px solid red;
+     height: 400px;
+   width: 30%;
+   border-radius: 10px;
+
+ }
+ 
+ .line {
+    border: none;
+    border-top: 1px solid grey;
+   
+    position: relative;
+    left: 0px;
+ width: 65%;
+ height: 1px;
+  }
+  
+  .check {
+    
+    font-size: 19px;
+    position: relative;
+    display: flex;
+ flex-direction: row;
+ right: 50px;
+  }
+  .check-box
+  {
+      position:relative;
+      right: 30px;
+      top: 8px;
+  }
+  .add-logo
+  {
+    display: inline-block;
+    position: absolute;
+    
+    bottom: 55px;
+    
+  }
+ 
+  }
+  @media screen and (min-width: 300px) and (max-width: 479px)
+  {
+
+    .ui {
+        margin: 0px;
+        width: 320px;
+        /* border: 1px solid black; */
+      }
+      
+        
+  .title-trip
+  {
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 0px;
+  left: 50px;
+   text-align:center;
+  }
+  .back-text
+  {
+      visibility: hidden;
+  }
+  .box-container {
+    position: relative;
+    left: 100px;
+  bottom: 150px;
+   display: flex;
+   flex-direction: column;
+  text-align: center;
+  
+ }
+ .a,.b{
+    visibility: hidden;
+}
+.head
+ {
+     border: 2px solid red;
+     height: 400px;
+   width: 50%;
+   border-radius: 10px;
+
+ }
+ .check {
+    
+    font-size: 19px;
+    position: relative;
+    display: flex;
+ flex-direction: row;
+right:40px;
+top: 20px;
+  }
+
+  .check-box
+  {
+      position:relative;
+      right: 40px;
+      top: 8px;
+  }
+  }
